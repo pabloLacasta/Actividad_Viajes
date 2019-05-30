@@ -14,8 +14,10 @@ header {
     align-items: center;
     justify-content: space-between;
     align-items: baseline;
+    position:absolute;
+    width: 100vw;
     padding-top: 1em;
-    background-color: rgb(5, 138, 173)
+    background-color: transparent;
 }
 
 .logoText {
@@ -81,6 +83,44 @@ header {
     width: 50px;
     height: 50px;
 }
+
+/*SECTION 1*/
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/nathan-anderson-316188-unsplash.jpg");
+    background-size: cover;
+}
+.viaja{
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+.viaja > .viaja{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.viaja .descubre{
+    font-size: 3em;
+}
+
+.viaja a{
+    align-self: center;
+    font-size: 1.7em;
+    font-style: italic;
+    color: black;
+    background-color: rgb(254, 242, 0);
+    padding: 0.5em 0.5em;
+    margin-top: 2em;
+}
+/*FOOTER*/
 
 footer {
     background-color: rgb(19, 26, 55);
